@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Endpoint(id = "backingServiceFailure")
 public class BackingServiceFailure {
+
     private boolean simulateFailure;
 
     @WriteOperation
